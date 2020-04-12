@@ -1,0 +1,59 @@
+.naslov {
+    position: fixed;
+    right: 38%;
+    background-color: rgb(212, 22, 22);
+    color: white;
+    font-size: 40px;
+}
+.meni a {
+    float: left;
+    width: 6em;
+    text-decoration:none;
+    color: #fff;
+    background-color: crimson;
+    padding: 0.2em 0.6em;
+    border-right: 1px solid #fff;
+}
+.meni a:hover {
+    background-color: darkgrey;
+}
+#lista_vrata {
+    width: 100%;
+    height: 200px;
+    background-color: #b4b4b2;
+}
+.slika {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+}
+.nes {
+    color: darkgoldenrod;
+    font-size: 26px;
+}
+.lok1 {
+    position: relative;
+    left: 350px;
+    bottom: 100px;
+}
+.lok2 {
+    position: relative;
+    left: 350px;
+    bottom: 100px;
+}
+.lok3 {
+    position: relative;
+    left: 350px;
+    bottom: 100px;
+}
+.nista{
+    font-size: large;
+}
+.jedno {
+    font-size: large;
+}
+.sve {
+    font-size: large;
+}
