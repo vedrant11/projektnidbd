@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#50afe4;
+	background-image:linear-gradient(to bottom,#57B7E0,#3C799D);
+    background-attachment:fixed;
+    height: 1000px;
+}
+.kp {
+    width: 85%;
+    max-width: 600px;
+    background: #f1f1f1;
+    position: relative;
+    left: 300px;
+    top: 0px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: "Montserrat",sans-serif;
+}
+.kp h1 {
+    margin-top: 0;
+    font-weight: 250;
+}
+.po {
+    border: 2px solid gray;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+.po label {
+    display: block;
+    text-align: left;
+    color: #000000;
+    font-size: 20px;
+}
+.po input,.po textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 23px;
+    margin-top: 6px;
+}
+.btne {
+    display: block;
+    background: gray;
+    border: 2px solid green;
+    border-radius: 8px;
+    padding: 30px 0;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+}
+.dugme {
+    position: relative;
+    right: 5%;
+    top: 50%;
+    background-color: lightgray;
+    width: 170px;
+    height: 55px;
+    border: 1.8px solid #338033;
+    font-size: 14px;
+    border-radius: 6px;
+    transition: .6s;
+    overflow: hidden;
+}
+.dugme :focus {
+    outline: none;
+}
+.dugme :before {
+    content: "";
+    display: block;
+    position: absolute;   
+    background: rgb(255, 255, 255, .5);
+    height: 100%;
+    width: 60px;
+    left: 0;
+    top: 0;
+    opacity: .5s;
+    filter: blur(30px);
+    transform: translateX(-130px) skew(-15deg);
+}
+.dugme :after {
+    content: "";
+    display: block;
+    position: absolute;   
+    background: rgb(255, 255, 255, .2);
+    height: 100%;
+    width: 30px;
+    left: 0;
+    top: 0;
+    opacity: .5s;
+    filter: blur(30px);
+    transform: translateX(-100px) skew(-15deg);
+}
+.do {
+    border: 2px solid gray;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+.do label {
+    display: block;
+    text-align: left;
+    color: #000000;
+    font-size: 20px;
+}
+.do input,.do textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 23px;
+    margin-top: 6px;
+}
